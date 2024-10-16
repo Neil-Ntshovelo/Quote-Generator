@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin :0;
+    padding :0;
+   
+    font-family :'Lato',sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height :100vh;
+    text-align: center;
+    background: url(istockphoto-1816810090-1024x1024.jpg) no-repeat center center/ cover;
+    color: white;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    width : 550px;
+    height : 450px ;
+   
+}
+.header {
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+
+    background-color: rgb(66, 60, 60);
+    padding : 5px;
+   
+    border-radius : 5px;
+    width: 80%;
+    margin :20px auto;
+}
+.main-content {
+    width :100%;
+    height: 300px;
+    background-color:#fff ;
+    border-radius: 15px ;
+    padding :50px 40px;
+    box-shadow: 0 0 10px ;
+    color: black;
+   
+}
+.main-content .text-area {
+    font-size : 1.5rem ;
+    line-height: 1.5rem;
+ 
+}
+.main-content .person{
+    font-size:1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.button-area button{
+   background-color:  #262626;
+   color : white;
+   font-size : 1.3rem ; 
+   padding: 10px 15px;
+   margin-top: 20px ;
+   border-radius: 4px;
+   box-shadow: 0 4px 10px #201f1f;
+   cursor:pointer;
+}
+.button-area button:hover{
+    background-color: #dfc9c9;
+}
